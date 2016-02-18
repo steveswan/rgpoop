@@ -13,6 +13,7 @@
 		A4688E471C76752000C68692 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4688E461C76752000C68692 /* Assets.xcassets */; };
 		A4688E4A1C76752000C68692 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4688E481C76752000C68692 /* LaunchScreen.storyboard */; };
 		A4688E521C76774900C68692 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4688E511C76774900C68692 /* Character.swift */; };
+		A4688E541C7685F700C68692 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4688E531C7685F700C68692 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A4688E491C76752000C68692 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4688E4B1C76752000C68692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4688E511C76774900C68692 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		A4688E531C7685F700C68692 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				A4688E481C76752000C68692 /* LaunchScreen.storyboard */,
 				A4688E4B1C76752000C68692 /* Info.plist */,
 				A4688E511C76774900C68692 /* Character.swift */,
+				A4688E531C7685F700C68692 /* Player.swift */,
 			);
 			path = rgpoop;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4688E541C7685F700C68692 /* Player.swift in Sources */,
 				A4688E521C76774900C68692 /* Character.swift in Sources */,
 				A4688E421C76752000C68692 /* ViewController.swift in Sources */,
 				A4688E401C76752000C68692 /* AppDelegate.swift in Sources */,
@@ -291,6 +295,7 @@
 				A4688E501C76752000C68692 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
